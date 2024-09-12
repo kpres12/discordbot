@@ -23,3 +23,40 @@ A simple Discord bot designed to run Capture The Flag (CTF) challenges, allowing
    ```bash
    git clone https://github.com/yourusername/discord-ctf-bot.git
    cd discord-ctf-bot
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file in the root directory and add your bot's token:
+   ```env
+   DISCORD_TOKEN=your-discord-bot-token
+   ```
+
+4. Start the bot:
+   ```bash
+   node index.js
+   ```
+
+## Usage
+
+- `!ctfstart` - Start a CTF challenge.
+- `!ctfsubmit <answer>` - Submit your answer for the current challenge.
+- `!ctfscore` - Check your current score.
+
+## Permissions
+
+Make sure the bot has the following permissions in your Discord server:
+- Read Messages
+- Send Messages
+- Read Message History
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request with any improvements.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
